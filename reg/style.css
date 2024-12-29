@@ -1,0 +1,150 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5% 0 5%;
+    align-items: center;
+
+}
+
+.genders a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px 0 10px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.mainlogo {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    top: 2%;
+    bottom: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.minilogos{
+   display: flex;
+   gap: 2vh;
+   object-fit:contain;
+}
+.minilogos img{
+    width: 40px;
+   height: 40px;
+}
+.genders :hover{
+    background-color: #000;
+    color: #ffffff;
+}
+main{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.centP{
+    font-size: 45px;
+}
+main input{
+    height: 5vh;
+    width: 25vw;
+    
+}
+main button{
+    background-color: #000;
+    color: #ffffff;
+    margin-top: 5vh;
+    height: 5vh;
+    width: 18vw;
+    cursor: pointer;
+}
+.agreement{
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    color: #949494;
+}
+.wrng{
+    border-color: red;
+    color: red;;
+}
+.srch{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 12vh 5% 0 5%;
+}
+.link a{
+    color: #000;
+    text-decoration: none;
+    margin: 0 1vw;
+    font-size: 1.2vw;
+}
+.srch input{
+    border-color: #000;
+    height: 3vh;
+    width: 15vw;
+    border-radius: 5px;
+}
+.dif {
+    color: red !important;
+}
+.lcMain{
+    margin: 8vh 5% 0 5%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.lc{
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+
+}
+.lc a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px 0 10px;
+    font-size: 30px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 15px;
+    align-self: flex-start;
+
+}
+.lc :hover{
+    background-color: #000;
+    color: #ffffff;
+}
+.order{
+    margin-top: 0;
+    grid-column: 2;
+    
+}
+.order h1{
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+.productCard{
+    width: 1200px;
+    height: 120px;
+    background-color: #9494948f;
+}
+.data input{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    background-color: transparent;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    border: bottom 1px;
+    margin: 3% 0 0 0;
+    padding: 1vh 25% 1vh 0;
+    outline: none;
+}
+.passportData{
+    grid-column: 1fr 1fr;
+}
