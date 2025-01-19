@@ -13,7 +13,7 @@
         <a href="">Детское</a>
     </div>
     <div class="mainlogo">
-    <img src="/imgs/Group 1.png" alt="" сlass="logo"></div>
+    <img src="/imgs/Group 1.png" alt="" class="logo"></div>
     <div class="minilogos">
         <img src="/imgs/Icon.png" alt="">
         <img src="/imgs/ic24-heart.png" alt="">
@@ -34,16 +34,20 @@
         <input type="text">
     </div>
     <div class="lcMain">
+        <div class="header-container">
+            <h1>Личный кабинет</h1>
+        </div>
+            <h1 class="txtMyData">Мои данные</h1>
         <div class="lc">
-            <a href="">Мои заказы</a>
-            <a href="/lc/data.html">Мои данные</a>
-            <a href="">Адреса доставки</a>
+            <a href="/lc/orders.html">Мои заказы</a>
+            <a class="now" href="/lc/data.html"  >Мои данные</a>
+            <a href="/lc/adresses.html">Адреса доставки</a>
         </div>
         <div class="data">
             <div class="myData">
-                <h1>Мои данные</h1>
-                <input type="text" placeholder="Номер телефона">
-                <input type="text" placeholder="Электронная почта">
+                
+                <input type="tel" placeholder="+7 999 999 9999">
+                <input type="email" placeholder="ivanov2020@mail.ru">
             </div>
             <div class="passportData">
                 <h1>Пасспортные данные</h1>
@@ -53,22 +57,26 @@
                     <input type="text" placeholder="Фамилия">
                     <input type="text" placeholder="Имя">
                     <input type="text" placeholder="Отчество">
-                    <input type="text" placeholder="Дата рождения">
+                    <input placeholder="Дата рождения" type="fulldate">
                 </div>
                 <div class="passportRow">
-                    <input type="text" placeholder="Серия паспорта">
-                    <input type="text" placeholder="Номер паспорта">
+                    <input class="passportInput1" type="text" placeholder="Серия паспорта">
+                    <input class="passportInput" type="text" placeholder="Номер паспорта">
                 </div> 
                 <input type="text" placeholder="Кем выдачи">
                 <div class="lastData">
-                    <input type="text" placeholder="Дата выдачи">
-                    <input type="text" placeholder="ИНН">
+                    <input class="passportInput1" type="" class="1piece" placeholder="Дата выдачи">
+                    <input class="passportInput" type="text" class="2piece" placeholder="ИНН">
                 </div>
-                <button></button>
-                <button></button>
-                <p class="expl"></p>
+                <button class="lef">Показать данные</button>
+                <button class="righ">Изменить данные</button>
+                <p class="expl">Ваши данные в безопастности. Мы храним их в зищищённом виде</p>
             </div>
+            
         </div>
-
+        <div class="lastInfo"> <p>Все посылки в рамках международных отправлений походят процедуру
+            таможенного оформления. Для товаров личного пользования используется реестр экспресс
+             грузов, который, согласно приказу ФТС №1060 от 5.07.2018, должен содержать в себе 
+             сведения о документе, удостоверяющем личность физического лица (паспортные данные и ИНН). </p> </div>
 </body>
 </html>
